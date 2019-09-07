@@ -28,14 +28,14 @@ export const Container = styled.div`
 `;
 
 export const Time = styled.li`
-  padding: 20px;
+  padding: 12px;
   border-radius: 4px;
   background: #fff;
   opacity: ${props => (props.past ? 0.6 : 1)};
   strong {
     display: block;
     color: ${props => (props.available ? '#999' : '#7159c1')};
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
   }
   span {
